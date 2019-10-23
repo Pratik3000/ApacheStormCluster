@@ -11,3 +11,8 @@ amzn2extra-docker/2/x86_64         Amazon Extras repo for docker                
 cloudera-cdh5                      Cloudera's Distribution for Hadoop, Version 5          118+28
 
 To remove the any repository, we can remove the .repo file present in the following path for particular repository.
+  $ rm /etc/yum.repos.d/cloudera-cdh5.repo
+  $ yum repolist
+repo id                            repo name                                              status
+amzn2-core/2/x86_64                Amazon Linux 2 core repository                         17,147
+amzn2extra-docker/2/x86_64         Amazon Extras repo for docker                              15
