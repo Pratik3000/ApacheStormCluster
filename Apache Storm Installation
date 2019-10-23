@@ -1,2 +1,5 @@
 Following is the link that was used as reference
 https://www.michael-noll.com/tutorials/running-multi-node-storm-cluster/
+
+
+Add the Cloudera-manager repository to yum
