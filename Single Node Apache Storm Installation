@@ -2,4 +2,12 @@ Following is the link that was used as reference
 https://www.michael-noll.com/tutorials/running-multi-node-storm-cluster/
 
 
-Add the Cloudera-manager repository to yum
+Add the Cloudera-Manager repository to yum
+  $ sudo wget https://archive.cloudera.com/cdh5/redhat/5/x86_64/cdh/cloudera-cdh5.repo -P /etc/yum.repos.d/
+  $ yum repolist
+repo id                            repo name                                              status
+amzn2-core/2/x86_64                Amazon Linux 2 core repository                         17,147
+amzn2extra-docker/2/x86_64         Amazon Extras repo for docker                              15
+cloudera-cdh5                      Cloudera's Distribution for Hadoop, Version 5          118+28
+
+To remove the any repository, we can remove the .repo file present in the following path for particular repository.
